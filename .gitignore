@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# HubForge runtime
+.hf/
+
+# Do NOT ignore widgets/*/dist/ — the platform serves widgets from those built directories,
+# so `dist/` under each widget must be committed. Run `hf build` before committing to keep it fresh.

@@ -1,0 +1,5 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Gainsight/dch-sdk/main/packages/hubforge/schemas/hubforge.schema.json",
+  "cliVersion": "0.13.0",
+  "templateVersion": 1
+}
