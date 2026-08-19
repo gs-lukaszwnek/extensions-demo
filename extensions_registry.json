@@ -1,3 +1,61 @@
 {
-  "widgets": []
+  "widgets": [
+    {
+      "version": "1.0.0",
+      "title": "Product Reviews",
+      "description": "A widget built with React and the Widget SDK.",
+      "configuration": {
+        "properties": [
+          {
+            "name": "title",
+            "type": "text",
+            "label": "Title",
+            "defaultValue": "Product Reviews",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "description",
+            "type": "text",
+            "label": "Description",
+            "defaultValue": "A widget built with React and the Widget SDK."
+          }
+        ]
+      },
+      "defaultConfig": {
+        "title": "Product Reviews",
+        "description": "A widget built with React and the Widget SDK."
+      },
+      "type": "product-reviews",
+      "category": "general",
+      "source": {
+        "path": "widgets/product-reviews/dist",
+        "entry": "index.html"
+      },
+      "imageSrc": "widgets/product-reviews/thumbnail.png"
+    }
+  ],
+  "stylesheets": [
+    {
+      "name": "index",
+      "path": "https://cdn.jsdelivr.net/npm/@spectrum-css/tokens@latest/dist/index.css"
+    },
+    {
+      "name": "brand-theme",
+      "path": "stylesheets/brand-theme/style.css"
+    }
+  ],
+  "scripts": [
+    {
+      "name": "confetti",
+      "path": "https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js",
+      "placement": "head"
+    },
+    {
+      "name": "welcome",
+      "path": "scripts/welcome/script.js",
+      "placement": "head"
+    }
+  ]
 }

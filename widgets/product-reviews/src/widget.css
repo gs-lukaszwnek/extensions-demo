@@ -1,0 +1,39 @@
+.react-widget-section {
+    padding: var(--spectrum-spacing-300, 16px);
+    font-family: var(--spectrum-font-family, system-ui, sans-serif);
+    background: var(--spectrum-gray-50, #ffffff);
+    border-radius: var(--spectrum-corner-radius-200, 12px);
+    box-shadow:
+      inset 5px 0 0 0 var(--spectrum-accent-color-500, #4f46e5),
+      0 1px 3px rgba(0, 0, 0, 0.1);
+    color: var(--spectrum-gray-900, #1f1f1f);
+  }
+
+  .react-widget-title {
+    margin: 0;
+    font-size: var(--spectrum-font-size-200, 18px);
+    font-weight: 700;
+  }
+
+  .react-widget-description {
+    margin: 0.5rem 0 0;
+    font-size: var(--spectrum-font-size-100, 14px);
+    line-height: 1.6;
+  }
+
+  .cc-button-primary {
+    margin-top: 0.75rem;
+    padding: var(--spectrum-spacing-100, 8px) var(--spectrum-spacing-300, 16px);
+    background: var(--spectrum-accent-color-500, #4f46e5);
+    color: var(--spectrum-white, white);
+    border: none;
+    border-radius: var(--spectrum-corner-radius-100, 6px);
+    font-family: var(--spectrum-font-family, sans-serif);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .cc-button-primary:hover {
+    background: var(--spectrum-accent-color-400, #6366f1);
+    transform: translateY(-1px);
+  }

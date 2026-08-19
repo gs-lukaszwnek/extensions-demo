@@ -1,0 +1,4 @@
+body {
+    background: var(--spectrum-pink-600, #d63384) !important;
+    min-height: 100vh;
+  }
